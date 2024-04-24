@@ -52,14 +52,25 @@ VIZE200401073::create_sqlite_db()
 
 
 ## Q3 - Veri Kalite Kontrolü
-```{r}
+```{r , results = 'hide', message=FALSE , warning = FALSE}
 library(VIZE200401073)
 a<-create_sqlite_db()
 data<- VIZE200401073::data_preprocessing(a)
 VIZE200401073::write_data_to_db(data)
 ```
 
+## Q4 Veri analizi
+```{r, message=FALSE , warning = FALSE}
+library(VIZE200401073)
+kpi <- VIZE200401073::analysis_graphic(data)
+```
 
 
+
+
+Geom point grafiğinde her yılı kendi içerisinde değerlendirerek o yıl içinde kitapların almış olduğu derecelendirmelerin ortalamasını aldım böylece 2009-2021 yılları arasında ortalama derecelendirme oranlarını karşılaştırdım. 2020 yılında müşteriler ortalama en yüksek derecelendirmeyi yapmıştır. 2010 yılı ise en az derecelendirme oranıyla kapanmıştır. 
+
+Bar grafiğinde ise her yılın top 100 de ilk sıraya sahip olan kitapların derecelendirmesini karşılaştırarak 2020 yılında  A Promise Land adlı kitabın en çok değerlendirme aldığını gözlemledik.
+En düşük ranking oranına da Fifty Shades Of Grey: Book One of the Fifty Shades Trilogy (Fifty Shades Of Grey Series, 1) sahiptir.
 
 
