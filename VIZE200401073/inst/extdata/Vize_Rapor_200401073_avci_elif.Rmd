@@ -41,3 +41,12 @@ Genre: Kurgu,kurgu olmayan diye ayrılır
 Planlanan analizde, Yıllara göre en çok satan kitapların dağılımının incelenmesi amaçlanmıştır.
 Bu analizlerin sonuçları akabinde Lecteur Elfe, geçmiş pazar trendlerine ait top 100 best seller kitaplarını incelemiş ve kitap sektöründeki eğilimleri ve tüketici tercihlerini anlamak için değerli bilgiler elde etmiştir. Böylece hedeflediği “Read a book in heaven” adlı kampanyayı gerçekleştirme fırsatı bulmuştur.
 
+
+## Q2 - Veri İthali
+```{r,results = 'hide', warning = FALSE}
+#SQLite veritabanını yaratan kodlar 
+library(VIZE200401073)
+
+VIZE200401073::create_sqlite_db()
+
+```
