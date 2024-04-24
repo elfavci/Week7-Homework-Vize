@@ -2,10 +2,10 @@
 % Please edit documentation in R/data-presence.R
 \name{create_sqlite_db}
 \alias{create_sqlite_db}
-\title{Bu fonksiyon xlsx formatindaki veriyi  sqlite formatina donusturur.}
+\title{Bu fonksiyon veri setine sqlite formatina donusturur.}
 \usage{
 create_sqlite_db()
 }
 \description{
-Bu fonksiyon xlsx formatindaki veriyi  sqlite formatina donusturur.
+Bu fonksiyon veri setine sqlite formatina donusturur.
 }

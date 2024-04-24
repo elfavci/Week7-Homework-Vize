@@ -46,7 +46,20 @@ Bu analizlerin sonuçları akabinde Lecteur Elfe, geçmiş pazar trendlerine ait
 ```{r,results = 'hide', warning = FALSE}
 #SQLite veritabanını yaratan kodlar 
 library(VIZE200401073)
-
 VIZE200401073::create_sqlite_db()
 
 ```
+
+
+## Q3 - Veri Kalite Kontrolü
+```{r}
+library(VIZE200401073)
+a<-create_sqlite_db()
+data<- VIZE200401073::data_preprocessing(a)
+VIZE200401073::write_data_to_db(data)
+```
+
+
+
+
+

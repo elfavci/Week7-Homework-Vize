@@ -1,4 +1,4 @@
-#' Bu fonksiyon xlsx formatindaki veriyi  sqlite formatina donusturur.
+#' Bu fonksiyon veri setine sqlite formatina donusturur.
 #'
 #'
 #'
@@ -20,6 +20,6 @@ create_sqlite_db<-function(){
   dbListTables(con)
 
   data <- dbReadTable(con, "Book_sales")
-  dbDisconnect(con)
+
   return(data)
 }
