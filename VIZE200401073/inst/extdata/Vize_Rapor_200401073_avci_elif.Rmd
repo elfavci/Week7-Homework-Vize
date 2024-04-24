@@ -1,0 +1,43 @@
+---
+title: "Vize_Rapor_200401073_avci_elif"
+output: html_document
+date: "2024-04-24"
+---
+
+## Q1 İş, problem ve ihtiyaç tanımı
+
+Q.1.1 İş tanımı : 
+
+Sahibi olduğum şirketin  adı Lecteur Elfe'dir . Lecteur Elfe, kitap endüstrisinde faaliyet gösteren bir şirkettir. Amacı, kitap severlere geniş bir kitap yelpazesi sunarak okuma deneyimlerini zenginleştirmek ve dünya çapında en çok satan kitaplara göre analiz sistemi sunarak okuyucuların okuma deneyimlerini güncel tutmayı sağlamaktır. Şirketin faaliyetleri arasında şunlar bulunmaktadır:
+
+
+1.	Kitap Satışı: Lecteur Elfe, müşterilere popüler kitapları keşfetme ve satın alma fırsatı sunar.
+2.	Öneri Sistemi: Lecteur Elfe, müşterilerin ilgi alanlarına ve geçmiş okuma tercihlerine dayalı olarak kişiselleştirilmiş kitap önerileri sunar. Bu öneriler, müşterilerin yeni ve ilgi çekici kitaplar keşfetmelerine yardımcı olur.
+3.	İncelemeler ve Değerlendirmeler: Lecteur Elfe, müşterilerin kitaplar hakkındaki incelemelerini okuyabilecekleri ve kendi değerlendirmelerini paylaşabilecekleri bir platform sağlar. Bu, müşterilerin kitaplar hakkında daha bilinçli kararlar vermelerine yardımcı olur.
+4.	Kampanyalar ve İndirimler: Lecteur Elfe, müşterilere dev kampanyalar sunarak (%70 indirim gibi) daha fazla müşteri çekmeyi ve kitap satış sektöründe bir numara olmayı hedefleyen bir amaç doğrultusunda hareket etmektedir.
+
+Q.1.2 Problem ve ihtiyaç : 
+
+Lecteur Elfe’in karşılaştığı başlıca sorun, müşterilerin kitap tercihlerini anlamak ve onlara daha etkili bir şekilde kitap önermek ve bu doğrultuda kampanyalar oluşturma fırsatı yakalamaktır.
+
+Pazar Trendlerinin İzlenmesi: Lecteur Elfe, kitap endüstrisindeki pazar trendlerini izlemeli ve analiz etmelidir. Hangi türlerin popüler olduğunu, hangi yazarların en çok satanlar listesinde yer aldığını ve hangi kitapların gelecekte potansiyel olarak başarılı olabileceğini belirlemek için veri analizi yapılmalıdır.
+
+Q.1.3 Çözüm :
+
+Çözüm önerisi - Veri Seti tanımı:
+
+Elimde 2008 ve 2021 yılları arasında Amazonda yıllara göre en çok satan top 100 kitap bilgileri  xlsx formatında yer alıyor. Bu veri setinde gerekli incelemeler doğrultusunda kampanya oluşturulacaktır.
+ID: Kitap kimlik numarası
+Ranking: Kitabın sıralaması
+Name: Kitabın adı
+Year: Kitabın dahil olduğu top yılı
+Author: Kitabın yazarı
+Rating: Kitabın derecelendirmesi
+Type: kitabın cilt türü
+Genre: Kurgu,kurgu olmayan diye ayrılır
+
+Çözüm Önerisi -Planlanan analiz
+
+Planlanan analizde, Yıllara göre en çok satan kitapların dağılımının incelenmesi amaçlanmıştır.
+Bu analizlerin sonuçları akabinde Lecteur Elfe, geçmiş pazar trendlerine ait top 100 best seller kitaplarını incelemiş ve kitap sektöründeki eğilimleri ve tüketici tercihlerini anlamak için değerli bilgiler elde etmiştir. Böylece hedeflediği “Read a book in heaven” adlı kampanyayı gerçekleştirme fırsatı bulmuştur.
+
